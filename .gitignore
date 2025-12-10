@@ -1,0 +1,7 @@
+# Buat file .gitignore di folder project lo dan isi ini:
+touch .gitignore 
+# Kemudian edit isinya:
+echo "__pycache__" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "memory.json" >> .gitignore  # JANGAN simpan data memori user ke repo!
+echo ".DS_Store" >> .gitignore
